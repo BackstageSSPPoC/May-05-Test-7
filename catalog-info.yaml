@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: May-05-Test-7
+  description: Node app that displays time - named May-05-Test-7
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/May-05-Test-7
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_SSP_PoC/May-05-Test-7/main
+    argocd/app-name: may-05-test-7
+    backstage.io/kubernetes-id: May-05-Test-7
+    backstage.io/kubernetes-namespace: default
+    sonarqube.org/project-key: may-05-test-7
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
